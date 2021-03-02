@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mughees Todo-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onkeydown="myali(event)">
+
+    <div class="navbar">
+        <img src="images/todo.png" alt="">
+    </div>
+
+    
+    <div class="inputAll">
+        <img src="images/todo-list.jpg" alt="" class="image">
+        <div class="data">
+            <input type="text" onkeydown="myFunction(event)" name="" placeholder="Enter your list" id="input">
+        </div>
+        <div class="buttns"><button onclick="post()">Post</button>
+            <button onclick="del8All()">Delete All</button>
+        </div>
+        <div id="main" ></div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

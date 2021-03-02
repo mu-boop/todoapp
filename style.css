@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(172, 167, 167);
+    margin: 0;
+    padding: 0;
+     
+ }
+ 
+ .navbar{
+     background-color: rgb(26, 26, 26);
+     width: 100%;
+ 
+ }
+ 
+ .navbar img{
+     height: 4rem;
+     margin-left: 3rem;
+     margin-top: 0.5rem;
+ }
+ .inputAll{
+     width: 22rem;
+    min-height: 32rem;
+    max-height: auto;
+     margin: auto;
+     margin-top: 3rem;
+     border: 3px solid rgb(0, 0, 0);
+     background-color:rgb(255, 255, 255);
+     border-radius: 7px;
+     box-shadow: 2px 2px 8px white;
+ 
+ }
+ 
+ .image{
+     width: 7rem;
+     height: 7rem;
+     margin-left: 7rem;
+     margin-top: 1rem;
+     padding-left: 1rem;
+     
+ }
+ 
+ 
+ 
+ 
+ 
+ .data{
+     margin-top: 0rem;
+     margin-left: 1.7rem;
+ }
+ 
+ .data input{
+     background-color: rgb(253, 253, 253);
+     width: 18rem;
+     border: none;
+     font-size: 30px;
+     border-bottom: 2px solid black;
+     transition: width .7s ease, border-bottom .5s ease;
+ }
+ 
+ .data input:focus{
+     width: 18rem;
+     border: none;
+     outline: none;
+     border-bottom : 5px solid black
+ 
+ }
+ 
+ .data input::placeholder{
+     font-size: 18px;
+ }
+ 
+ 
+ .image1{
+     display: inline-flex;
+     position: absolute;
+     margin-top: 1rem;
+     width: 2rem;
+ }
+ 
+ .image1{
+     cursor: pointer;
+ }
+ 
+ 
+ 
+ .heading{
+     margin-left: 3rem;
+    
+ }
+ 
+ .btns{
+     margin-top: 2rem;
+     margin-left: 3rem;
+ }
+ 
+ .post{
+     background-color: white;
+     margin: auto;
+     border-radius: 4px;
+     padding: 5px;
+     width: 95%;
+
+     border: 1px solid black;
+     box-shadow: 2px 2px 5px rgb(79, 79, 79);
+     margin-top: 1rem;
+ }
+ 
+ .buttns{
+     margin-left: 3rem;
+ }
+ 
+ .buttns button{
+     font-size: 16px;
+     border-radius: 3px;
+     margin-left: 1rem;
+     margin-top: 1rem;
+     width: 100px;
+     height: 30px;
+     color: white;
+     background-color: grey;
+     outline: none;
+     border: none;
+     box-shadow: 2px 2px 4px rgb(143, 141, 141);
+     border: 2px solid black;
+ }
+ 
+ .buttns button:hover{
+     background-color: rgb(61, 60, 60);
+     color: rgb(255, 255, 255);
+ }
+ 
+ .update{
+     background-color: rgb(79, 79, 79);
+     border: none;
+     outline: none;
+     color: white;
+     margin-left: 12rem;
+     font-size: 16px;
+     font-family: 'Times New Roman', Times, serif;
+     border: 1px solid black;
+     box-shadow: 2px 2px 2px rgb(197, 197, 197);
+ 
+ }
+ .update:hover{
+    background-color:rgb(21, 21, 21);
+     color: white;
+     cursor: pointer;
+ 
+ }
+ 
+ .dl8{
+     background-color: rgb(79, 79, 79);
+     border: none;
+     outline: none;
+     color: white;
+     margin-left: 1rem;
+     font-size: 16px;
+     font-family: 'Times New Roman', Times, serif;
+     border: 1px solid black;
+     box-shadow: 2px 2px 2px rgb(197, 197, 197);
+     
+ }
+ 
+ .dl8:hover{
+     background-color:rgb(21, 21, 21);
+     color: white;
+     cursor: pointer;
+ }
+ 
+ 
+ 
+ #input{
+     margin: auto;
+     height: auto;
+ }
+ 
+ .hid{
+     display: none;
+ }
